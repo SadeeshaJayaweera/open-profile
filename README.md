@@ -1,90 +1,80 @@
-# Open Profile
+# Open Profile: Unleash Your Professional Potential
 
-Unified profile to showcase your work.
+Welcome to Open Profile, the unified platform for showcasing your professional achievements. Our vision is to revolutionize how recruiters, potential employers, clients, partners, investors, co-founders, employees, collaborators, and customers perceive your professional profile. In the near future, we aspire to replace traditional resumes with Open Profile IDs – the new standard in professional profile sharing.
 
-We dream of a time when recruiters will not ask for a resume. Instead, they will ask for your Open Profile ID. Open Profile will become the standard for sharing your professional profile. It will be the first thing you share with a recruiter, a potential employer, a potential client, a potential partner, a potential investor, a potential co-founder, a potential employee, a potential collaborator, a potential customer, a potential anything.
+Learn more about our mission [here](ABOUT.md).
 
-Read more about the idea [here](ABOUT.md).
+## How It Works
 
-## How it works
+Open Profile aggregates your professional data from various sources and presents it on a single, comprehensive page.
 
-The app will fetch your data from different sources and display them in a single page.
-
-Currently we fetch data from:
+Currently, we retrieve data from:
 
 - GitHub
-- Data from a JSON file created by the user
+- User-created JSON files
 
-## Installation
+## Getting Started
 
-```bash
-git clone https://github.com/thtauhid/open-profile
-cd open-profile
-npm install
-```
+To start using Open Profile, follow these simple steps:
 
-To run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-```
+   ```bash
+   git clone https://github.com/thtauhid/open-profile
+   cd open-profile
+   npm install
+   ```
 
-```bash
-npm run build
-```
+2. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+3. Build for production:
+
+   ```bash
+   npm run build
+   ```
 
 ## Development
 
-Currently, we are following this [wireframe](Wireframe.pdf) for the UI.
+We are currently following this [wireframe](Wireframe.pdf) for the UI.
 
 ## Deployment
 
-You can deploy this project to any static site hosting service.
-
-Some of the popular ones are:
+You can deploy your Open Profile to any static site hosting service. Some popular options include:
 
 - [Vercel](https://vercel.com/) (Recommended)
 - [Netlify](https://www.netlify.com/)
 
 ## Contributing
 
-[Contributing Guide](CONTRIBUTING.md)
-
-Feel free to open an issue if you find a bug or want to suggest a feature.
-
-### hacktoberfest
-
-1. Star the repo if you like it. ⭐
-2. Please read the [rules](https://hacktoberfest.com/participation/) before opening a pull request.
-3. Join our [Discord server](https://discord.gg/3jvahVGKfa) to discuss ideas, ask questions, collaborate and connect with like-minded people.
-4. The maintainer(s) will add the `hacktoberfest-accepted` label after reviewing and accepting your pull request.
-5. Refer to the dedicated [hacktoberfest project view](https://github.com/users/thtauhid/projects/2/views/2) to see what issues are available to work on.
-6. You can also create your own issue if you have something in mind.
-7. Low quality PRs will not be merged
+We welcome contributions from the open-source community. Please refer to our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ## Tech Stack
 
+Our tech stack includes:
+
 - Front-End:
-  React(with TypeScript),
-  Vite (Build Tool),
-  Tailwind CSS,
-  shadcn ui
+  - React (with TypeScript)
+  - Vite (Build Tool)
+  - Tailwind CSS
+  - shadcn ui
 - Linting and Code Quality:
-  ESLint,
-  @typescript-eslint (TypeScript-specific linting)
+  - ESLint
+  - @typescript-eslint (TypeScript-specific linting)
 - Routing:
-  React Router (Client-side routing)
+  - React Router (Client-side routing)
 - Build and Package Management:
-  npm (Node Package Manager)
+  - npm (Node Package Manager)
 
 ## Contributors
 
-<a href="https://github.com/thtauhid/open-profile/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=thtauhid/open-profile" />
-</a>
+Join our community of contributors. Check out our list of [contributors](https://github.com/thtauhid/open-profile/graphs/contributors) who have helped shape Open Profile.
 
-Made with [contrib.rocks](https://contrib.rocks).
+Made with ❤️ by [contrib.rocks](https://contrib.rocks).
 
 ## License
 
-[MIT License](LICENSE.md)
+Open Profile is distributed under the [MIT License](LICENSE.md).
